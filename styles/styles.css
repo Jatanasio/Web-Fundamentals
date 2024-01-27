@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue
+}
+/* This is targeting a class in html */
+
+.nav_link {
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+#main_title {
+    font-size: 4em;
+}
