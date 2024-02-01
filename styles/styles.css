@@ -1,14 +1,47 @@
+
 body {
-    background-color: lightblue
+    padding: 0;
+    margin: 0;
+    background-color: lawngreen;
+}
+#content {
+    max-width: 1080px;
 }
 /* This is targeting a class in html */
-
+nav {
+    display: flex; 
+    justify-content: center; 
+}
 .nav_link {
     padding: 10px;
     color: black;
     font-size: 1.3em;
+    text-decoration: none;
+    background-color: aqua; 
+}
+img {
+    width: 30%;
+    display : block;
+    margin: 0 auto;
+}
+a:hover{
+    color:blueviolet;
+    background-color:burlywood;
 }
 
 #main_title {
     font-size: 4em;
+    text-align: center; 
+    background-color: aqua;
+}
+p {
+    text-align: center; 
+}
+#sub_title {
+    font-size: 2em;
+    color: red 
+}
+footer {
+    padding: 20px;
+    background-color: honeydew; 
 }
