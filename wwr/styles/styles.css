@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 body {
     background-color: #FDE796;
-    padding: 0px;  
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -12,6 +22,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -26,6 +37,8 @@ nav a {
 }
 main section {
     text-align: center;
+    font-family: 'Protest Guerrilla', Helvetica, sans-serif
+
 }
 #background {
     height: 725px;
@@ -33,20 +46,20 @@ main section {
 }
 header {
     background-color: #34A197;
+    font-family: 'Protest Guerrilla', Helvetica, sans-serif
 }
 nav a:hover {
     background-color: #294051;
     color: #34A197;
 }
-.book {
+.book, .join {
     background-color: #34A197;
     color: black;
     text-decoration: none;
-}
-.join {
-    background-color: #34A197;
-    color: black;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #294051;
@@ -58,15 +71,19 @@ nav a:hover {
 }
 .msg {
     background-color: #34A197;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #34A197;
     color: black;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    margin-top: 200px;
 }
 footer a {
     color: black;
     text-decoration: none;
-
+    padding: 25px 50px;
 }
 footer:hover {
     color: black;
@@ -74,19 +91,27 @@ footer:hover {
 }
 .msg h2 {
     color: black;
+    font-family: 'Protest Guerrilla', Helvetica, sans-serif;
 
 }
 .msg p {
     color: black;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .home-title {
     color: black;
+    font-family: 'Protest Guerrilla', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero.img {
     width: 100%;
@@ -96,4 +121,25 @@ footer p {
 }
 footer p:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}   
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
