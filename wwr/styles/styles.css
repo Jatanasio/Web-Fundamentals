@@ -14,6 +14,16 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Protest Guerrilla', Helvetica, sans-serif;
+}
+
+#dio_img {
+    text-align: center;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;  
