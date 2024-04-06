@@ -45,6 +45,14 @@ nav a {
     text-decoration: none;
     padding: 30px;
 }
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+footer a:hover {
+    background-color: black;
+    color: white;
+}
 .logo {
     text-align: right;
     padding-right: 20px; 
