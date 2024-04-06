@@ -90,21 +90,21 @@ h1 {
     grid-row: 3;
 }
 
-p {
+.p1 {
     grid-column: 2/4;
     grid-row: 2;
     text-align: center;
     margin-bottom: 20px; 
 }
 
-p2 {
+.p2 {
     grid-column: 2/4;
     grid-row: 3;
     text-align: center;
     margin-bottom: 20px; 
 }
 
-p3 {
+.p3 {
     grid-column: 2/4;
     grid-row: 4;
     text-align: center;
