@@ -27,13 +27,16 @@ header {
    
 footer {
     grid-column: 1 / -1;
-    background-color: #34A197;
+    background-color: aqua;
     color: black;
     font-family: 'Rubik', Helvetica, sans-serif;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+footer a {
+    color: black;
 }
 nav {
     display: grid;
