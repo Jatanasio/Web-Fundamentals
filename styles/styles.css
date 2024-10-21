@@ -5,11 +5,11 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: lawngreen;
+    background-color: white;
     font-family: 'Protest Guerrilla'
 }
 #content {
-    max-width: 1080px;
+    width: 100%;
 }
 /* This is targeting a class in html */
 nav {
@@ -21,7 +21,7 @@ nav {
     color: black;
     font-size: 1.3em;
     text-decoration: none;
-    background-color: aqua; 
+    background-color: blue; 
 }
 img {
     width: 30%;
@@ -44,7 +44,7 @@ a:hover{
 #main_title {
     font-size: 4em;
     text-align: center; 
-    background-color: aqua;
+    background-color: blue;
 }
 p {
     width: 30%;
@@ -52,7 +52,7 @@ p {
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 50px;
-    background-color: aqua;
+    background-color: blue;
     border: 5px solid black;
     box-sizing: border-box;
     border-radius: 30px 100px;
